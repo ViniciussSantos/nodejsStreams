@@ -1,4 +1,4 @@
-const {Writable, Readable, Transform, pipeline} = require('stream')
+const {Writable, Readable, Transform, pipeline, Duplex} = require('stream')
 
 
 
