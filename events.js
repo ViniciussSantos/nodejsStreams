@@ -12,6 +12,3 @@ readableSrc.push('arroz3')
 readableSrc.emit('error', 'err')
 readableSrc.push(null)
 
-const writableSrc = new stream.Writable
-
-writableSrc.on('pipe')
