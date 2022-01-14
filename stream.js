@@ -56,7 +56,6 @@ asyncPipeline(
   createWriteStream('products.csv'),  
 )
 
-//por algum motivo, o pipeline async mata a stream na primeira linha do csv, criando dois arrays de jsons dentro de um só arquivo
 asyncPipeline(
   createReadStream('products.csv', 'utf-8'),
   toObject,
